@@ -1,0 +1,8 @@
+on main
+  set nums to empty
+  add 1 to nums
+  add 2 to nums
+  add 3 to nums
+  reverse nums
+  set head to first of nums
+  alert head

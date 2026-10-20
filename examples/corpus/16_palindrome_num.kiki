@@ -1,0 +1,12 @@
+on main
+  set n to 1221
+  set original to n
+  set rev to 0
+  while n is greater than 0
+    set digit to n modulo 10
+    set rev to rev times 10 plus digit
+    set n to floor of n divided by 10
+  if rev is original
+    alert "palindrome"
+  otherwise
+    alert "no"

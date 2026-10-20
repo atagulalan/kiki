@@ -1,0 +1,14 @@
+on main
+  set text to "Hello"
+  set upper to 0
+  set lower to 0
+  set len to length of text
+  set last to len minus 1
+  for every i from 0 to last
+    set ch to character at i of text
+    if ch is uppercase
+      increase upper
+    if ch is lowercase
+      increase lower
+  alert upper
+  alert lower

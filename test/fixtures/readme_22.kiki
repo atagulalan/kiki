@@ -1,0 +1,5 @@
+on check
+  if age is 12 and name is "Arda"
+    alert "match"
+  if status is "error" or status is "fail"
+    alert "bad"

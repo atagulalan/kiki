@@ -1,0 +1,9 @@
+on main
+  set items to empty
+  create button labeled "Add"
+  when button is clicked
+    ask for item
+    add item to items
+    set total to count of items
+    alert total
+  alert "ready"

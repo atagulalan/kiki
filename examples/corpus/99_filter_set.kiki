@@ -1,0 +1,9 @@
+on main
+  set people to empty
+  set a name to "Arda"
+  set a age to 12
+  add a to people
+  filter people as filtered with name "Arda" and age 12
+  set matches to filtered
+  set total to count of matches
+  alert total

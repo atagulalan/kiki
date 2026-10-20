@@ -1,0 +1,14 @@
+on main
+  set nums to empty
+  add 1 to nums
+  add 2 to nums
+  add 3 to nums
+  set out to empty
+  for every n in nums
+    if n is 2
+      add 99 to out
+    otherwise
+      add n to out
+  set nums to out
+  set total to count of nums
+  alert total

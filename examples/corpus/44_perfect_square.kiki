@@ -1,0 +1,12 @@
+on main
+  set n to 36
+  set i to 1
+  set found to 0
+  while i times i is at most n
+    if i times i is n
+      set found to 1
+    increase i
+  if found is 1
+    alert "yes"
+  otherwise
+    alert "no"

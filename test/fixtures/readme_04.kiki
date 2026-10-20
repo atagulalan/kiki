@@ -1,0 +1,6 @@
+on setup
+  set friend name to "Bouba"
+  set friend shape to "Potato"
+
+on greet
+  alert "Hello " friend name " the " friend shape

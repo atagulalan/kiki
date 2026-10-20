@@ -1,0 +1,9 @@
+on main
+  set nums to empty
+  add 10 to nums
+  add 20 to nums
+  add 30 to nums
+  set sum to 0
+  for every n in nums
+    increase sum by n
+  alert sum

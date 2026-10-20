@@ -1,0 +1,3 @@
+on list_friends
+  for every friend in friends
+    alert friend name

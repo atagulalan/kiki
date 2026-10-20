@@ -1,0 +1,4 @@
+on check
+  if score is 0
+    stop
+  alert "ok"

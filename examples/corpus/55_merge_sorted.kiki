@@ -1,0 +1,21 @@
+on main
+  set a to empty
+  set b to empty
+  add 1 to a
+  add 4 to a
+  add 6 to a
+  add 2 to b
+  add 3 to b
+  add 5 to b
+  set items to empty
+  for every x in a
+    set row value to x
+    add row to items
+  for every x in b
+    set row value to x
+    add row to items
+  sort items by value
+  set total to count of items
+  set head to first of items
+  alert total
+  alert head value

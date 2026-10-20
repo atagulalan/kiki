@@ -1,0 +1,12 @@
+on main
+  set a to 4
+  set b to 6
+  set x to a
+  set y to b
+  while y is not 0
+    set t to y
+    set y to x modulo y
+    set x to t
+  set hcf to x
+  set lcm to a times b divided by hcf
+  alert lcm

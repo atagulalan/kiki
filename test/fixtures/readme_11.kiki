@@ -1,0 +1,3 @@
+on search
+  find one person in people with name "Arda" and age 12
+  set match to person

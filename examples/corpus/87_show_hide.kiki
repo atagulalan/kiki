@@ -1,0 +1,5 @@
+on main
+  create text saying "banner"
+  show text
+  hide text
+  alert "ok"

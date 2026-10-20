@@ -1,0 +1,2 @@
+set total to count of people
+set size to length of name

@@ -1,0 +1,14 @@
+on main
+  set word to "hello"
+  set count to 0
+  if word contains "a"
+    increase count
+  if word contains "e"
+    increase count
+  if word contains "i"
+    increase count
+  if word contains "o"
+    increase count
+  if word contains "u"
+    increase count
+  alert count

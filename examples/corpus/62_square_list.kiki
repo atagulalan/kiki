@@ -1,0 +1,11 @@
+on main
+  set nums to empty
+  add 2 to nums
+  add 3 to nums
+  add 4 to nums
+  set squares to empty
+  for every n in nums
+    set s to n times n
+    add s to squares
+  set total to count of squares
+  alert total

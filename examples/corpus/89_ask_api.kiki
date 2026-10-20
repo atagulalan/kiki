@@ -1,0 +1,3 @@
+on main
+  ask for users from "/api/users"
+  set people to users

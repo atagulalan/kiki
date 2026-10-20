@@ -1,0 +1,6 @@
+on main
+  set arda name to "Arda"
+  set arda age to 12
+  add arda to people
+  find one person in people with name "Arda" and age 12
+  alert person name

@@ -1,0 +1,5 @@
+on check
+  if people is empty
+    alert "none"
+  if name is not empty
+    alert name

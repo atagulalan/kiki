@@ -1,0 +1,7 @@
+on main
+  set number to 7
+  set rem to number modulo 2
+  if rem is 0
+    alert "even"
+  otherwise
+    alert "odd"

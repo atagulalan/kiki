@@ -1,0 +1,11 @@
+on main
+  set a to empty
+  set b to empty
+  add 1 to a
+  add 2 to a
+  add 3 to b
+  add 4 to b
+  for every x in b
+    add x to a
+  set total to count of a
+  alert total

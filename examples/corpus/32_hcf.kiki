@@ -1,0 +1,8 @@
+on main
+  set a to 48
+  set b to 18
+  while b is not 0
+    set t to b
+    set b to a modulo b
+    set a to t
+  alert a

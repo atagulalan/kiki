@@ -1,0 +1,14 @@
+on main
+  set limit to 20
+  for every n from 2 to limit
+    set is_prime to 1
+    set up to n minus 1
+    if up is less than 2
+      set is_prime to 1
+    otherwise
+      for every d from 2 to up
+        set rem to n modulo d
+        if rem is 0
+          set is_prime to 0
+    if is_prime is 1
+      alert n

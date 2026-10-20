@@ -1,0 +1,4 @@
+node_modules/
+examples/**/*.js
+test/fixtures/*.out.js
+.DS_Store

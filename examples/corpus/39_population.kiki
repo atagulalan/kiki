@@ -1,0 +1,5 @@
+on main
+  set pop to 10000
+  repeat 10 times
+    alert pop
+    set pop to floor of pop times 110 divided by 100

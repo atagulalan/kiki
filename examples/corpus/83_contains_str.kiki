@@ -1,0 +1,6 @@
+on main
+  set name to "Arda"
+  if name contains "Ar"
+    alert "yes"
+  otherwise
+    alert "no"

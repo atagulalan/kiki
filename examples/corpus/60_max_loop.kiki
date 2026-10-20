@@ -1,0 +1,10 @@
+on main
+  set nums to empty
+  add 4 to nums
+  add 9 to nums
+  add 2 to nums
+  set max to first of nums
+  for every n in nums
+    if n is greater than max
+      set max to n
+  alert max

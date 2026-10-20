@@ -1,0 +1,11 @@
+on main
+  set nums to empty
+  add 1 to nums
+  add 2 to nums
+  add 3 to nums
+  add 4 to nums
+  set first to first of nums
+  remove first from nums
+  add first to nums
+  set head to first of nums
+  alert head

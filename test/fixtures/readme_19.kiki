@@ -1,0 +1,5 @@
+on check
+  if score is at least 10
+    alert "pass"
+  otherwise
+    alert "fail"

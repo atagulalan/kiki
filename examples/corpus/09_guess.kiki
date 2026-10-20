@@ -1,0 +1,11 @@
+on main
+  set secret to 7
+  set tries to 0
+  keep asking for guess until guess is secret
+    increase tries
+    if guess is less than secret
+      alert "too low"
+    if guess is greater than secret
+      alert "too high"
+  increase tries
+  alert tries

@@ -1,0 +1,3 @@
+on tick
+  every 5 seconds
+    increase score

@@ -1,0 +1,13 @@
+on main
+  set n to 5
+  ask for mode
+  set result to 0
+  if mode is "sum"
+    set result to 0
+    for every i from 1 to n
+      increase result by i
+  otherwise
+    set result to 1
+    for every i from 1 to n
+      set result to result times i
+  alert result

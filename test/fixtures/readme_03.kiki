@@ -1,0 +1,5 @@
+set enemy to "Aliens"
+set friend name to "Bouba"
+set friend shape to "Potato"
+reset enemy to "Monsters"
+reset enemy

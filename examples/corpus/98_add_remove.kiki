@@ -1,0 +1,7 @@
+on main
+  set people to empty
+  set friend name to "Ada"
+  add friend to people
+  remove friend from people
+  if people is empty
+    alert "none"

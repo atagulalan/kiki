@@ -1,0 +1,14 @@
+on main
+  set nums to empty
+  add 1 to nums
+  add 2 to nums
+  add 3 to nums
+  set sum to 0
+  set i to 0
+  set len to count of nums
+  while i is less than len
+    increase i
+  set sum to 0
+  for every n in nums
+    increase sum by n
+  alert sum

@@ -1,0 +1,3 @@
+show(kiki.variables.banner);
+hide(kiki.variables.banner);
+setText(kiki.variables.title, "Welcome");

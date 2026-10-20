@@ -1,0 +1,11 @@
+on main
+  set people to empty
+  add 1 to people
+  add 2 to people
+  add 3 to people
+  set total to count of people
+  set head to first of people
+  set tail to last of people
+  alert total
+  alert head
+  alert tail

@@ -1,0 +1,6 @@
+on main
+  set n to 12
+  for every d from 1 to n
+    set rem to n modulo d
+    if rem is 0
+      alert d

@@ -1,0 +1,7 @@
+on main
+  set people to empty
+  set a name to "Arda"
+  set a age to 12
+  add a to people
+  find one person in people with name "Arda"
+  alert person name

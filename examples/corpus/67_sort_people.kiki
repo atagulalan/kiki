@@ -1,0 +1,9 @@
+on main
+  set people to empty
+  set a age to 40
+  set b age to 10
+  add a to people
+  add b to people
+  sort people by age
+  set head to first of people
+  alert head age

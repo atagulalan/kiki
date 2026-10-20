@@ -1,0 +1,2 @@
+set head to first of people
+set tail to last of people

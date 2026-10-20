@@ -1,0 +1,12 @@
+on main
+  set n to 2342
+  set digits to empty
+  set s to text of n
+  set len to length of s
+  set last to len minus 1
+  for every i from 0 to last
+    set ch to character at i of s
+    set d to number of ch
+    add d to digits
+  set total to count of digits
+  alert total

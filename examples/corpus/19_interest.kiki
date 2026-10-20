@@ -1,0 +1,6 @@
+on main
+  set principal to 1000
+  set rate to 5
+  set time to 2
+  set interest to principal times rate times time divided by 100
+  alert interest

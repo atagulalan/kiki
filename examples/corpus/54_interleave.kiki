@@ -1,0 +1,25 @@
+on main
+  set a to empty
+  set b to empty
+  add "x" to a
+  add "y" to a
+  add "z" to a
+  add 1 to b
+  add 2 to b
+  add 3 to b
+  set out to empty
+  set i to 0
+  set len_a to count of a
+  set len_b to count of b
+  set limit to len_a
+  if len_b is less than limit
+    set limit to len_b
+  set last to limit minus 1
+  for every i from 0 to last
+    set left to item at i of a
+    set right to item at i of b
+    add left to out
+    add right to out
+  set total to count of out
+  alert total
+  alert first of out

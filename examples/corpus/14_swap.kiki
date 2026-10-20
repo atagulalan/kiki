@@ -1,0 +1,8 @@
+on main
+  set a to 1
+  set b to 2
+  set temp to a
+  set a to b
+  set b to temp
+  alert a
+  alert b

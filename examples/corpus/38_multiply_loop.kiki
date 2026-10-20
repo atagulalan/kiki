@@ -1,0 +1,7 @@
+on main
+  set a to 6
+  set b to 7
+  set product to 0
+  repeat b times
+    increase product by a
+  alert product

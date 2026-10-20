@@ -1,0 +1,9 @@
+on main
+  set sum to 0
+  set count to 0
+  keep asking for number until number is 0
+    increase sum by number
+    increase count
+  set average to sum divided by count
+  alert sum
+  alert average

@@ -1,0 +1,18 @@
+on main
+  set found to 0
+  set n to 2
+  while found is less than 25
+    set is_prime to 1
+    set up to n minus 1
+    if n is less than 2
+      set is_prime to 0
+    otherwise
+      if up is at least 2
+        for every d from 2 to up
+          set rem to n modulo d
+          if rem is 0
+            set is_prime to 0
+    if is_prime is 1
+      alert n
+      increase found
+    increase n

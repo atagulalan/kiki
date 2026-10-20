@@ -1,0 +1,5 @@
+on main
+  for every i from 1 to 12
+    for every j from 1 to 12
+      set product to i times j
+      alert i " x " j " = " product

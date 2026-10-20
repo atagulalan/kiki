@@ -1,0 +1,9 @@
+on main
+  set n to 12345
+  set count to 0
+  if n is 0
+    set count to 1
+  while n is greater than 0
+    increase count
+    set n to floor of n divided by 10
+  alert count

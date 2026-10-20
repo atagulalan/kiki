@@ -1,0 +1,9 @@
+on check
+  if score is greater than 10
+    alert "high"
+  if score is less than 3
+    alert "low"
+  if score is at least 5
+    alert "ok"
+  if score is at most 100
+    alert "capped"

@@ -1,0 +1,13 @@
+on main
+  set temperature to 32
+  set humidity to 95
+  if temperature is at least 30 and humidity is at least 90
+    alert "Hot and Humid"
+  otherwise
+    if temperature is at least 30
+      alert "Hot"
+    otherwise
+      if humidity is at least 90
+        alert "Cool and Humid"
+      otherwise
+        alert "Cool"

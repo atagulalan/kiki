@@ -1,0 +1,10 @@
+on main
+  set a to 1
+  set b to 1
+  alert a
+  alert b
+  repeat 18 times
+    set next to a plus b
+    alert next
+    set a to b
+    set b to next

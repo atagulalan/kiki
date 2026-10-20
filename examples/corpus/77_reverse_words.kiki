@@ -1,0 +1,17 @@
+on main
+  set sentence to "Hello how are you"
+  set words to empty
+  set word to ""
+  set len to length of sentence
+  set last to len minus 1
+  for every i from 0 to last
+    set ch to character at i of sentence
+    if ch is " "
+      add word to words
+      set word to ""
+    otherwise
+      append ch to word
+  add word to words
+  reverse words
+  set out to join words with " "
+  alert out

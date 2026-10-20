@@ -1,0 +1,3 @@
+on main
+  set user name to "Ada"
+  send user to "/api/users"

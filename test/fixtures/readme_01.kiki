@@ -1,0 +1,3 @@
+on hello thing
+  if thing is not defined, set thing "World"
+  alert "Hello " thing "!"

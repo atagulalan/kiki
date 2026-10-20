@@ -1,0 +1,21 @@
+{
+  "name": "kiki",
+  "version": "0.1.0",
+  "description": "Kiki — a symbol-light pseudocode compiler targeting JavaScript",
+  "type": "module",
+  "bin": {
+    "kiki": "./bin/kiki.js"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./runtime": "./src/runtime.js"
+  },
+  "scripts": {
+    "test": "node --test test/**/*.test.js",
+    "compile": "node bin/kiki.js compile"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

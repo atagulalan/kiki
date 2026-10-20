@@ -1,0 +1,7 @@
+on check
+  if score is 10
+    alert "perfect"
+  if name equals "Bouba"
+    alert "hi Bouba"
+  if shape equals to "Potato"
+    alert "potato friend"

@@ -1,0 +1,6 @@
+on main
+  set n to 5
+  set nn to n times 10 plus n
+  set nnn to nn times 10 plus n
+  set result to n plus nn plus nnn
+  alert result

@@ -1,0 +1,5 @@
+on wait_three_seconds
+  if countdown is 0, reset countdown to 3
+  while countdown is not 0
+    wait for 1 second
+    decrease countdown

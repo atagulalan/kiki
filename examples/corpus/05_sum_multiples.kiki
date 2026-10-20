@@ -1,0 +1,9 @@
+on main
+  set n to 17
+  set sum to 0
+  for every i from 1 to n
+    set rem3 to i modulo 3
+    set rem5 to i modulo 5
+    if rem3 is 0 or rem5 is 0
+      increase sum by i
+  alert sum

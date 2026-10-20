@@ -1,0 +1,8 @@
+on main
+  set principal to 1000
+  set rate to 10
+  set years to 2
+  set amount to principal
+  repeat years times
+    set amount to floor of amount times 110 divided by 100
+  alert amount

@@ -1,0 +1,6 @@
+on main
+  set n to 10
+  set sum to 0
+  for every i from 1 to n
+    increase sum by i
+  alert sum

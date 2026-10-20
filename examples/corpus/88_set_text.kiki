@@ -1,0 +1,4 @@
+on main
+  create text saying "Hi"
+  set text of text to "Welcome"
+  alert "ok"

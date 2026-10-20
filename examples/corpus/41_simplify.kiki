@@ -1,0 +1,13 @@
+on main
+  set num to 6
+  set den to 9
+  set a to num
+  set b to den
+  while b is not 0
+    set t to b
+    set b to a modulo b
+    set a to t
+  set num to num divided by a
+  set den to den divided by a
+  alert num
+  alert den

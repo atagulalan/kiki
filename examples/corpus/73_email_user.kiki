@@ -1,0 +1,14 @@
+on main
+  set email to "nitish@gmail.com"
+  set user to ""
+  set done to 0
+  set len to length of email
+  set last to len minus 1
+  for every i from 0 to last
+    unless done
+      set ch to character at i of email
+      if ch is "@"
+        set done to 1
+      otherwise
+        append ch to user
+  alert user

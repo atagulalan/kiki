@@ -1,0 +1,4 @@
+on main
+  every 5 seconds
+    increase score
+  alert "scheduled"

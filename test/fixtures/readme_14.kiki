@@ -1,0 +1,2 @@
+on save_user
+  send user to "/api/users"

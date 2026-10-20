@@ -1,0 +1,12 @@
+on main
+  set nums to empty
+  add 10 to nums
+  add 20 to nums
+  add 30 to nums
+  add 40 to nums
+  set idx to 0
+  for every n in nums
+    set rem to idx modulo 2
+    if rem is 1
+      alert n
+    increase idx

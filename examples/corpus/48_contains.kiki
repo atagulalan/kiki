@@ -1,0 +1,9 @@
+on main
+  set nums to empty
+  add 1 to nums
+  add 2 to nums
+  add 3 to nums
+  if nums contains 2
+    alert "yes"
+  otherwise
+    alert "no"

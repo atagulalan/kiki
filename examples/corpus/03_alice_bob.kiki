@@ -1,0 +1,6 @@
+on main
+  ask for name
+  if name is "Alice" or name is "Bob"
+    alert "Hello " name
+  otherwise
+    alert "I don't know you"

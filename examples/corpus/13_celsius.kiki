@@ -1,0 +1,6 @@
+on main
+  set c to 25
+  set f to c times 9
+  set f to f divided by 5
+  set f to f plus 32
+  alert f

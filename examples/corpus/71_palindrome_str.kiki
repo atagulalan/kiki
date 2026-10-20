@@ -1,0 +1,8 @@
+on main
+  set word to "aba"
+  set rev to word
+  reverse rev
+  if word is rev
+    alert "yes"
+  otherwise
+    alert "no"

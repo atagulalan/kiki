@@ -1,0 +1,3 @@
+on greet
+  get name and shape of friend
+  alert "Hello " name " the " shape

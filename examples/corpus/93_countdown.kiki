@@ -1,0 +1,6 @@
+on main
+  set countdown to 3
+  while countdown is not 0
+    wait for 1 second
+    decrease countdown
+  alert "done"

@@ -1,0 +1,1 @@
+set line to join name and shape with " the "

@@ -1,0 +1,13 @@
+on main
+  set word to "hello"
+  set first to character at 0 of word
+  set rest to ""
+  set len to length of word
+  set last to len minus 1
+  for every i from 1 to last
+    set ch to character at i of word
+    append ch to rest
+  set out to rest
+  append first to out
+  append "ay" to out
+  alert out

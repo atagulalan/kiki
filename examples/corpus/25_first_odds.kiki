@@ -1,0 +1,5 @@
+on main
+  set n to 1
+  repeat 25 times
+    alert n
+    increase n by 2

@@ -1,0 +1,6 @@
+on main
+  set n to 5
+  set result to 1
+  for every i from 1 to n
+    set result to result times i
+  alert result

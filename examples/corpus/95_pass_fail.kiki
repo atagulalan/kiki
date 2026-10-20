@@ -1,0 +1,6 @@
+on main
+  set score to 12
+  if score is at least 10
+    alert "pass"
+  otherwise
+    alert "fail"

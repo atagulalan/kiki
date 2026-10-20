@@ -1,0 +1,5 @@
+on main
+  set name to "Bouba"
+  set shape to "Potato"
+  set line to join name and shape with " the "
+  alert line

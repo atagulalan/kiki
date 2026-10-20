@@ -1,0 +1,3 @@
+on search
+  filter people as filtered with name "Arda" and age 12
+  set matches to filtered

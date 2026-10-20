@@ -1,0 +1,13 @@
+on main
+  set fibs to empty
+  add 1 to fibs
+  add 1 to fibs
+  set a to 1
+  set b to 1
+  repeat 8 times
+    set next to a plus b
+    add next to fibs
+    set a to b
+    set b to next
+  set total to count of fibs
+  alert total

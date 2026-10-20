@@ -1,0 +1,8 @@
+on main
+  set n to 18
+  set rem3 to n modulo 3
+  set rem6 to n modulo 6
+  if rem3 is 0 and rem6 is 0
+    alert "yes"
+  otherwise
+    alert "no"

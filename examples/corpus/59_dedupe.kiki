@@ -1,0 +1,12 @@
+on main
+  set nums to empty
+  add 1 to nums
+  add 2 to nums
+  add 1 to nums
+  add 3 to nums
+  set unique to empty
+  for every n in nums
+    unless unique contains n
+      add n to unique
+  set total to count of unique
+  alert total

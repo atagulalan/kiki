@@ -1,0 +1,8 @@
+on main
+  set n to 123
+  set sum to 0
+  while n is greater than 0
+    set digit to n modulo 10
+    increase sum by digit
+    set n to floor of n divided by 10
+  alert sum

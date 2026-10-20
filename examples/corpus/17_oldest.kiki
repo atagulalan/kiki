@@ -1,0 +1,10 @@
+on main
+  set a to 12
+  set b to 40
+  set c to 25
+  set oldest to a
+  if b is greater than oldest
+    set oldest to b
+  if c is greater than oldest
+    set oldest to c
+  alert oldest

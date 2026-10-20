@@ -1,0 +1,10 @@
+on main
+  set sentence to "Hello how are you"
+  set words to 1
+  set len to length of sentence
+  set last to len minus 1
+  for every i from 0 to last
+    set ch to character at i of sentence
+    if ch is " "
+      increase words
+  alert words

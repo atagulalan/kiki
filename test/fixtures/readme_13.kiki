@@ -1,0 +1,6 @@
+on load_users
+  ask for users from "/api/users"
+  set people to users
+
+on load_search
+  ask for results from "/api/search" with query "Arda"

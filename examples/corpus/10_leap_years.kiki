@@ -1,0 +1,20 @@
+on main
+  set year to 2024
+  set count to 0
+  while count is less than 20
+    set rem400 to year modulo 400
+    set rem100 to year modulo 100
+    set rem4 to year modulo 4
+    set leap to 0
+    if rem400 is 0
+      set leap to 1
+    otherwise
+      if rem100 is 0
+        set leap to 0
+      otherwise
+        if rem4 is 0
+          set leap to 1
+    if leap is 1
+      alert year
+      increase count
+    increase year

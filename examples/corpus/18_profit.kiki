@@ -1,0 +1,10 @@
+on main
+  set cost to 50
+  set sell to 80
+  if sell is greater than cost
+    alert "profit"
+  otherwise
+    if sell is less than cost
+      alert "loss"
+    otherwise
+      alert "even"

@@ -1,0 +1,15 @@
+on main
+  set nums to empty
+  add 1 to nums
+  add 2 to nums
+  add 3 to nums
+  set ok to 1
+  set prev to first of nums
+  for every n in nums
+    if n is less than prev
+      set ok to 0
+    set prev to n
+  if ok is 1
+    alert "yes"
+  otherwise
+    alert "no"

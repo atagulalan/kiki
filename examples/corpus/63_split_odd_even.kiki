@@ -1,0 +1,18 @@
+on main
+  set nums to empty
+  add 1 to nums
+  add 2 to nums
+  add 3 to nums
+  add 4 to nums
+  set odds to empty
+  set evens to empty
+  for every n in nums
+    set rem to n modulo 2
+    if rem is 0
+      add n to evens
+    otherwise
+      add n to odds
+  set o to count of odds
+  set e to count of evens
+  alert o
+  alert e

@@ -1,0 +1,5 @@
+on main
+  set age to 12
+  set name to "Arda"
+  if age is 12 and name is "Arda"
+    alert "match"

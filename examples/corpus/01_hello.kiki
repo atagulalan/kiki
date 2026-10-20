@@ -1,0 +1,2 @@
+on main
+  alert "Hello World"

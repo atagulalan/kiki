@@ -1,0 +1,4 @@
+on main
+  set message to "hi"
+  append "!" to message
+  alert message

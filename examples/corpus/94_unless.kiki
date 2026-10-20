@@ -1,0 +1,4 @@
+on main
+  set ready to 0
+  unless ready
+    alert "waiting"

@@ -1,0 +1,6 @@
+on main
+  set a to 1
+  set b to 2
+  set c to 3
+  set sum to a times a plus b times b plus c times c
+  alert sum

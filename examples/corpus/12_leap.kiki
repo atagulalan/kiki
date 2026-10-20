@@ -1,0 +1,15 @@
+on main
+  set year to 2024
+  set rem400 to year modulo 400
+  set rem100 to year modulo 100
+  set rem4 to year modulo 4
+  if rem400 is 0
+    alert "leap"
+  otherwise
+    if rem100 is 0
+      alert "not leap"
+    otherwise
+      if rem4 is 0
+        alert "leap"
+      otherwise
+        alert "not leap"

@@ -1,0 +1,4 @@
+on main
+  set sentence to "hello world from kiki"
+  set out to title case of sentence
+  alert out

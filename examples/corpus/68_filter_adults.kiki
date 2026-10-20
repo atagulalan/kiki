@@ -1,0 +1,11 @@
+on main
+  set people to empty
+  set a name to "Arda"
+  set a age to 12
+  set b name to "Ada"
+  set b age to 30
+  add a to people
+  add b to people
+  filter people as adults with age at least 18
+  set total to count of adults
+  alert total

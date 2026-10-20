@@ -1,0 +1,15 @@
+on main
+  set n to 17
+  set is_prime to 1
+  if n is less than 2
+    set is_prime to 0
+  otherwise
+    set limit to n minus 1
+    for every d from 2 to limit
+      set rem to n modulo d
+      if rem is 0
+        set is_prime to 0
+  if is_prime is 1
+    alert "prime"
+  otherwise
+    alert "not prime"

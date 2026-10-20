@@ -1,0 +1,11 @@
+on main
+  for every n from 100 to 999
+    set original to n
+    set x to n
+    set sum to 0
+    while x is greater than 0
+      set digit to x modulo 10
+      set sum to sum plus digit times digit times digit
+      set x to floor of x divided by 10
+    if sum is original
+      alert n

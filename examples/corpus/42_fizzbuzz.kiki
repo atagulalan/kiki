@@ -1,0 +1,14 @@
+on main
+  for every i from 1 to 100
+    set rem3 to i modulo 3
+    set rem5 to i modulo 5
+    if rem3 is 0 and rem5 is 0
+      alert "FizzBuzz"
+    otherwise
+      if rem3 is 0
+        alert "Fizz"
+      otherwise
+        if rem5 is 0
+          alert "Buzz"
+        otherwise
+          alert i

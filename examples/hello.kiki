@@ -1,0 +1,7 @@
+on hello thing
+  if thing is not defined set thing to "World"
+  alert "Hello " thing "!"
+
+on main
+  invoke hello "Bouba"
+  invoke hello

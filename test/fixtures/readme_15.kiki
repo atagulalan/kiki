@@ -1,0 +1,3 @@
+on draw
+  create button labeled "Click me"
+  create text saying "Hello"

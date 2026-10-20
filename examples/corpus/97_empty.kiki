@@ -1,0 +1,4 @@
+on main
+  set people to empty
+  if people is empty
+    alert "none"

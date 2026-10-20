@@ -1,0 +1,5 @@
+on check
+  if name contains "Ar"
+    alert "found"
+  if people contains friend
+    alert "in list"

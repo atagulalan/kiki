@@ -1,0 +1,10 @@
+on main
+  set word to "hello"
+  set out to ""
+  set len to length of word
+  set last to len minus 1
+  for every i from 0 to last
+    set ch to character at i of word
+    if ch is not "l"
+      append ch to out
+  alert out

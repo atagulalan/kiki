@@ -1,0 +1,11 @@
+on main
+  set n to 6
+  set steps to 0
+  while n is not 1
+    set rem to n modulo 2
+    if rem is 0
+      set n to n divided by 2
+    otherwise
+      set n to n times 3 plus 1
+    increase steps
+  alert steps

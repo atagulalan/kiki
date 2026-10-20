@@ -1,0 +1,4 @@
+on draw
+  create button labeled "Click me"
+  when button is clicked
+    alert "clicked"

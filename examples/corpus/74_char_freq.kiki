@@ -1,0 +1,11 @@
+on main
+  set text to "hello how are you"
+  set target to "h"
+  set freq to 0
+  set len to length of text
+  set last to len minus 1
+  for every i from 0 to last
+    set ch to character at i of text
+    if ch is target
+      increase freq
+  alert freq

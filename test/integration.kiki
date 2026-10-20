@@ -1,0 +1,68 @@
+on setup
+  set people to empty
+  set friend name to "Bouba"
+  set friend shape to "Potato"
+  set friend age to 12
+  add friend to people
+  set score to 0
+  set ready to 1
+
+on math_demo
+  set a to 10
+  set b to 3
+  set sum to a plus b
+  set product to a times b
+  set quot to a divided by b
+  set rem to a modulo b
+  set total to count of people
+  set head to first of people
+  set line to join name and shape of friend with " the "
+  append "!" to line
+
+on search_demo
+  find one person in people with name "Bouba" and age 12
+  filter people as teens with age at least 10
+  sort people by age descending
+  reverse people
+
+on control_demo
+  if score is 0
+    increase score by 2
+  otherwise
+    decrease score
+  unless ready
+    stop
+  for every i from 1 to 3
+    increase score by i
+  repeat 2 times
+    increase score
+  while score is greater than 100
+    decrease score by 10
+
+on io_demo
+  ask for users from "/api/users"
+  send user to "/api/users"
+  wait for 1 second
+  create button labeled "Go"
+  when button is clicked
+    alert "clicked"
+  show button
+  hide button
+  set text of button to "Done"
+
+on greet thing
+  if thing is not defined set thing to "World"
+  get name and shape of friend
+  if name contains "B" or shape equals to "Potato"
+    alert "Hello " thing " " name
+  if people is empty
+    alert "none"
+  if people is not empty
+    alert "some"
+
+on main
+  invoke setup
+  invoke math_demo
+  invoke search_demo
+  invoke control_demo
+  invoke greet "Arda"

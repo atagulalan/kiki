@@ -1,0 +1,5 @@
+on main
+  create button labeled "Click me"
+  when button is clicked
+    alert "hi"
+  alert "ready"

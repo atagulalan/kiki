@@ -1,0 +1,8 @@
+on main
+  set word to "hello"
+  set n to 0
+  set len to length of word
+  set last to len minus 1
+  for every i from 0 to last
+    increase n
+  alert n

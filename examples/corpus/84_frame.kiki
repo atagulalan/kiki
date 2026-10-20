@@ -1,0 +1,30 @@
+on main
+  set words to empty
+  add "Hello" to words
+  add "World" to words
+  add "in" to words
+  add "a" to words
+  add "frame" to words
+  set width to 0
+  for every w in words
+    set len to length of w
+    if len is greater than width
+      set width to len
+  set border to ""
+  set border_len to width plus 4
+  set i to 0
+  while i is less than border_len
+    append "*" to border
+    increase i
+  alert border
+  for every w in words
+    set line to "* "
+    append w to line
+    set pad to width minus length of w
+    set j to 0
+    while j is less than pad
+      append " " to line
+      increase j
+    append " *" to line
+    alert line
+  alert border

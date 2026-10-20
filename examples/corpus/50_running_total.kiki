@@ -1,0 +1,9 @@
+on main
+  set nums to empty
+  add 1 to nums
+  add 2 to nums
+  add 3 to nums
+  set total to 0
+  for every n in nums
+    increase total by n
+    alert total

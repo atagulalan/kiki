@@ -1,0 +1,12 @@
+on main
+  set n to 153
+  set original to n
+  set sum to 0
+  while n is greater than 0
+    set digit to n modulo 10
+    set sum to sum plus digit times digit times digit
+    set n to floor of n divided by 10
+  if sum is original
+    alert "yes"
+  otherwise
+    alert "no"
